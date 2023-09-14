@@ -1,12 +1,7 @@
-let edadCliente
+let edadCliente;
 
-do(
-
-    edadCliente = parseInt(prompt('ingrese una edad valida'))
-)
-while(isNaN(edadCliente) || edadCliente > 120 || edadCliente <= 0)
-
-
+do edadCliente = parseInt(prompt("ingrese una edad valida"));
+while (isNaN(edadCliente) || edadCliente > 120 || edadCliente <= 0);
 
 /*let edadCliente = parseInt(prompt('Ingrese una edad'))
 
